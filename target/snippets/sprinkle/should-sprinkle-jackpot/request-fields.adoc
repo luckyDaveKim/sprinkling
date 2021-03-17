@@ -1,0 +1,12 @@
+|===
+|Path|Type|Description
+
+|`+money+`
+|`+Number+`
+|뿌릴 금액
+
+|`+pickerCount+`
+|`+Number+`
+|뿌릴 인원
+
+|===

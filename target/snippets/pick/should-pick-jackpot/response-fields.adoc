@@ -1,0 +1,8 @@
+|===
+|Path|Type|Description
+
+|`+money+`
+|`+Number+`
+|받은 금액
+
+|===

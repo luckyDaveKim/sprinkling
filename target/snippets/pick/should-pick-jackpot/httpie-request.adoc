@@ -1,0 +1,8 @@
+[source,bash]
+----
+$ http POST 'http://localhost/api/v1/sprinkling/jackpot/ScQ' \
+    'Content-Type:application/json;charset=UTF-8' \
+    'Accept:application/json' \
+    'X-USER-ID:10' \
+    'X-ROOM-ID:dave-2'
+----

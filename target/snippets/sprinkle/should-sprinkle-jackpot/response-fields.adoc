@@ -1,0 +1,8 @@
+|===
+|Path|Type|Description
+
+|`+token+`
+|`+String+`
+|고유 토큰
+
+|===

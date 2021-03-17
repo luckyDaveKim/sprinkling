@@ -1,0 +1,9 @@
+[source,options="nowrap"]
+----
+{
+  "sprinklingAt" : "2021-03-18 05:02:48",
+  "sprinklingMoney" : 10000,
+  "pickedMoney" : 0,
+  "pickedInfos" : [ ]
+}
+----

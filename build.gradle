@@ -2,6 +2,7 @@ plugins {
     id 'org.springframework.boot' version '2.4.3'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
+    id 'org.asciidoctor.convert' version '1.5.8'
 }
 
 group = 'com.kakaopay'
@@ -28,6 +29,9 @@ dependencies {
         exclude group: 'org.junit.vintage', module:'junit-vintage-engine'
     }
 
+    // Restdocs
+    testImplementation ('org.springframework.restdocs:spring-restdocs-mockmvc')
+
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
     // H2 DB
@@ -43,4 +47,9 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+asciidoctor {
+    sourceDir 'src/docs/asciidoc'
+    attributes 'snippets': file('target/snippets')
 }

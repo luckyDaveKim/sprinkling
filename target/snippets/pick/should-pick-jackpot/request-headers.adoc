@@ -1,0 +1,16 @@
+|===
+|Name|Description
+
+|`+X-USER-ID+`
+|사용자 식별값
+
+|`+X-ROOM-ID+`
+|대화방 식별값
+
+|`+Content-Type+`
+|제공하는 컨텐츠 타입, application/json
+
+|`+Accept+`
+|응답받는 컨텐츠 타입, application/json
+
+|===

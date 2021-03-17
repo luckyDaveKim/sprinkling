@@ -1,0 +1,20 @@
+|===
+|Path|Type|Description
+
+|`+sprinklingAt+`
+|`+String+`
+|뿌린 시각
+
+|`+sprinklingMoney+`
+|`+Number+`
+|뿌린 금액
+
+|`+pickedMoney+`
+|`+Number+`
+|받기 완료된 금액
+
+|`+pickedInfos+`
+|`+Array+`
+|받기 완료된 정보
+
+|===

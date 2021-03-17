@@ -1,0 +1,12 @@
+[source,bash]
+----
+$ curl 'http://localhost/api/v1/sprinkling/jackpot' -i -X POST \
+    -H 'Content-Type: application/json;charset=UTF-8' \
+    -H 'Accept: application/json' \
+    -H 'X-USER-ID: 1' \
+    -H 'X-ROOM-ID: dave-1' \
+    -d '{
+  "money" : 10000,
+  "pickerCount" : 10
+}'
+----

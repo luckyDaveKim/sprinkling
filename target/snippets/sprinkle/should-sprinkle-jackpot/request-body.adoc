@@ -1,0 +1,7 @@
+[source,options="nowrap"]
+----
+{
+  "money" : 10000,
+  "pickerCount" : 10
+}
+----

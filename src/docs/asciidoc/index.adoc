@@ -1,0 +1,30 @@
+= Money Sprinkling
+:doctype: book
+:toc: left
+:toclevels: 4
+:sectnums:
+:!table-caption:
+
+== 뿌리기 API
+.request
+include::{snippets}/sprinkle/should-sprinkle-jackpot/request-headers.adoc[]
+include::{snippets}/sprinkle/should-sprinkle-jackpot/request-fields.adoc[]
+include::{snippets}/sprinkle/should-sprinkle-jackpot/request-body.adoc[]
+include::{snippets}/sprinkle/should-sprinkle-jackpot/curl-request.adoc[]
+.response
+include::{snippets}/sprinkle/should-sprinkle-jackpot/response-fields.adoc[]
+include::{snippets}/sprinkle/should-sprinkle-jackpot/response-body.adoc[]
+== 받기 API
+.request
+include::{snippets}/pick/should-pick-jackpot/request-headers.adoc[]
+include::{snippets}/pick/should-pick-jackpot/curl-request.adoc[]
+.response
+include::{snippets}/pick/should-pick-jackpot/response-fields.adoc[]
+include::{snippets}/pick/should-pick-jackpot/response-body.adoc[]
+== 조회 API
+.request
+include::{snippets}/check/should-check-jackpot/request-headers.adoc[]
+include::{snippets}/check/should-check-jackpot/curl-request.adoc[]
+.response
+include::{snippets}/check/should-check-jackpot/response-fields.adoc[]
+include::{snippets}/check/should-check-jackpot/response-body.adoc[]
